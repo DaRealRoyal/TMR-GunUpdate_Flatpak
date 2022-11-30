@@ -10,7 +10,7 @@ jobs:
     name: build-flatpak
     runs-on: ubuntu-latest
     container:
-      image: bilelmoussaoui/flatpak-github-actions:freedesktop-21.08
+      image: bilelmoussaoui/flatpak-github-actions:freedesktop-22.08
       options: --privileged
     steps:
       - name: Checkout repository
@@ -18,8 +18,8 @@ jobs:
       - name: Build Flatpak
         uses: bilelmoussaoui/flatpak-github-actions/flatpak-builder@v4
         with:
-          bundle:  com.DaRealRoyal.TacticalMathReturns.flatpak
-          manifest-path: com.DaRealRoyal.TacticalMathReturns.yml
+          bundle:  com.DaRealRoyal.TMR-GunUpdate.flatpak
+          manifest-path: com.DaRealRoyal.TMR-GunUpdate.yml
           cache-key: flatpak-builder-${{ github.sha }}
           branch: stable
       - name: Deploy
@@ -29,4 +29,3 @@ jobs:
           repository: ""
           flat-manager-url: https://flatpak.hachiman.nils.moe
           token: ${{ secrets.FLATMAN_TOKEN }}
-

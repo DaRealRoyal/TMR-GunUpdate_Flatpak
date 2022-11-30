@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+	<id>com.DaRealRoyal.TMR-GunUpdate</id>
+	<metadata_license>CC0-1.0</metadata_license>
+	<project_license>Proprietary</project_license>
+	<name>TMR-GunUpdate</name>
+	<summary>TMR is a multiplayer game.</summary>
+	<description>
+		<p>TODO</p>
+	</description>
+	<categories>
+		<category>Game</category>
+	</categories>
+	<launchable type="desktop-id">com.DaRealRoyal.TMR-GunUpdate.desktop</launchable>
+	<screenshots>
+		<screenshot type="default">
+			<image type="source">https://tacticalmath.games/images/screenshots/1.jpg</image>
+		</screenshot>
+		<screenshot>
+			<image type="source">https://tacticalmath.games/images/screenshots/2.jpg</image>
+		</screenshot>
+		<screenshot>
+			<image type="source">https://tacticalmath.games/images/screenshots/3.jpg</image>
+		</screenshot>
+		<screenshot>
+			<image type="source">https://tacticalmath.games/images/screenshots/4.jpg</image>
+		</screenshot>
+		<screenshot>
+			<image type="source">https://tacticalmath.games/images/screenshots/5.jpg</image>
+		</screenshot>
+		<screenshot>
+			<image type="source">https://tacticalmath.games/images/screenshots/6.jpg</image>
+		</screenshot>
+	</screenshots>
+	<url type="homepage">https://tacticalmath.games/</url>
+	<url type="bugtracker">https://github.com/DaRealRoyal/TMR-GunUpdate/issues</url>
+	<developer_name>Da Real Royal</developer_name>
+	<update_contact>contact@nalsai.de</update_contact>
+</component>

@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
 Name=Tactical Math Returns
-Icon=com.DaRealRoyal.TacticalMathReturns
-Exec=tacticalmathreturns %U
+Icon=com.DaRealRoyal.TMR-GunUpdate
+Exec=tmr-gunupdate %U
 Categories=Game;
